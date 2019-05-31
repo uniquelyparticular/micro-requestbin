@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "demo-micro-requestbin",
+  "alias": "particular-micro-requestbin.now.sh",
+  "env": {
+    "NODE_ENV": "production",
+    "REQUESTBIN_ORIGIN_WHITELIST": "@demo-requestbin-origin-whitelist"
+  },
+  "routes": [{ "src": "/(.*)", "dest": "/src" }],
+  "builds": [
+    {
+      "src": "src/*.js",
+      "use": "@now/node"
+    }
+  ]
+}
