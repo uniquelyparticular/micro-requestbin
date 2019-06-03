@@ -24,7 +24,7 @@ process.on('unhandledRejection', (reason, p) => {
 
 const notAuthorized = async (req, res) =>
   send(res, 401, {
-    error: 'Referer or Destination not whitelisted or insecure'
+    error: 'Referer or Origin not whitelisted'
   })
 const invalidSecret = async (req, res) =>
   send(res, 401, {
