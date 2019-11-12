@@ -31,7 +31,7 @@
   "dependencies": {
     "micro": "9.3.4",
     "micro-cors": "0.1.1",
-    "whatwg-url": "7.0.0"
+    "whatwg-url": "7.1.0"
   },
   "devDependencies": {
     "husky": "2.4.0",
