@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "micro": "9.3.4",
+    "micro": "9.4.1",
     "micro-cors": "0.1.1",
     "whatwg-url": "7.0.0"
   },
